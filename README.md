@@ -45,7 +45,7 @@ The next step is to request all the football leagues from the main endpoint give
 
 The final results - HTML files - are made by the module _"writer.js"_ in conjuntion with the files inside "**web_stuff**". This files generate the HTML. 
 
-The programm also supports the option _"-bootstrap"_ which will make the html files use the css file made by the bootstrap library instead of using the one made by us.
+The program also supports the option _"-bootstrap"_ which will make the html files use the css file made by the bootstrap library instead of using the one made by us.
 
 ## How to use
 
