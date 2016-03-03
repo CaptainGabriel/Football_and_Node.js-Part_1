@@ -47,3 +47,19 @@ The final results - HTML files - are made by the module _"writer.js"_ in conjunt
 
 The programm also supports the option _"-bootstrap"_ which will make the html files use the css file made by the bootstrap library instead of using the one made by us.
 
+## How to use
+
+node football-data.js _**options**_
+
+Where _"options"_ include:
+   * _**-usage**_ Shows the application usage
+   * _**-file <file-path>**_ Reads all arguments from the text file in <file-path>
+   * _**-leagues <leagues-list>**_ A comma separated list of the league names or its short names (e.g Primeira Liga, 2015/2016, PD)
+   * _**-generate [teams|fixtures|leagueTable|players]**_ What to generate. A comma separated list of the defined values.
+   * _**-output <dir-path>**_ Path to output directory where files are generated.
+
+Inside the root directory type in your favorite terminal:
+
+`npm install` //install dependencies
+
+`node football-data.js -leagues PD -generate leagueTable,teams` //something like this
