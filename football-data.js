@@ -25,7 +25,7 @@ const Writer = require('./lib/writer').writer;
 /**
  * Api key
  */
-const apikey = module.exports.apiKey = 'f564ad0cb00240ff9e90cfd4262bbad6';
+const apikey = module.exports.apiKey = 'YOUR-API-KEY-SHOULD-GO-HERE';
 
 
 /**
